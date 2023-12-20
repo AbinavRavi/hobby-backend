@@ -1,0 +1,44 @@
+{
+    "basic_data":[
+        {
+            "field":"internal_field_name",
+            "field_display_name":"Field Display Name",
+            "value":"",
+            "type":"string/number/array"
+        },
+        {
+            "field":"internal_field_name",
+            "field_display_name":"Field Display Name",
+            "value":"",
+            "type":"string/number/array"
+        }
+    ],
+    "signals":[
+        {
+            "field":"internal_field_name",
+            "field_display_name":"Field Display Name",
+            "value":"",
+            "type":"string/number/array"
+        },
+        {
+            "field":"internal_field_name",
+            "field_display_name":"Field Display Name",
+            "value":"",
+            "type":"string/number/array"
+        }
+    ],
+    "ai_enhanced":[
+        {
+            "field":"internal_field_name",
+            "field_display_name":"Field Display Name",
+            "value":"",
+            "type":"string/number/array"
+        },
+        {
+            "field":"internal_field_name",
+            "field_display_name":"Field Display Name",
+            "value":"",
+            "type":"string/number/array"
+        }
+    ]
+}

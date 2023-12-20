@@ -1,0 +1,46 @@
+{
+  "metrics": [
+    {
+      "metric_name": "linkedin_headcount_and_glassdoor_ceo_approval_and_g2"
+    }
+  ],
+  "filters": {
+    "op": "and",
+    "conditions": [
+        {
+          "column": "hq_country",
+          "type": "(.)",
+          "value": "USA",
+          "allow_null": false
+        },
+        {
+            "op":"or",
+            "conditions": [
+                {
+                    "column": "linkedin_industries",
+                    "type": "(.)",
+                    "value": "Appliances, Electrical, and Electronics Manufacturing",
+                    "allow_null": false
+                },
+                {
+                    "column": "linkedin_industries",
+                    "type": "(.)",
+                    "value": "Automation Machinery Manufacturing",
+                    "allow_null": false
+                }     
+            ]
+            
+        },
+        {
+            "column": "linkedin_headcount",
+            "type": "=>",
+            "value": "1000",
+            "allow_null": false
+        }
+    ]
+  },
+  "hidden_columns": ["total_rows"],
+  "offset": 0,
+  "count": 1000
+}
+      

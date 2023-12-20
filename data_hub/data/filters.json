@@ -1,0 +1,304 @@
+{
+    "geographies":[
+        {
+            "field_name":"USA",
+            "field_display_name":"United States of America",
+            "is_available": true
+        },
+        {
+            "field_name":"India",
+            "field_display_name":"India (Coming Soon)",
+            "is_available": false
+        },
+        {
+            "field_name":"Europe",
+            "field_display_name":"Europe (Coming Soon)",
+            "is_available": false
+        },
+        {
+            "field_name":"MEA",
+            "field_display_name":"Middle East & Africa (Coming Soon)",
+            "is_available": false
+        },
+        {
+            "field_name":"ANZ",
+            "field_display_name":"Australia & New Zealand (Coming Soon)",
+            "is_available": false
+        },
+        {
+            "field_name":"SA",
+            "field_display_name":"South America (Coming Soon)",
+            "is_available":false
+        }
+    ],
+    "industries":[
+        {
+            "field_name":"b2b_saas_cloud",
+            "field_display_name":"B2B SaaS & Cloud",
+            "is_available":true
+        },
+        {
+            "field_name":"enterprise_software",
+            "field_display_name":"Enterprise Software",
+            "is_available":true
+        },
+        {
+            "field_name":"advertising_media",
+            "field_display_name":"Advertising & Media (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"digital_agencies",
+            "field_display_name":"Digital Agencies (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"vc_pe",
+            "field_display_name":"Venture Capital & Private Equity (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"professional_services",
+            "field_display_name":"Professional Services (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"management_consulting",
+            "field_display_name":"Management Consulting (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"recruiting_hr",
+            "field_display_name":"Recruiting & HR (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"manufacturing",
+            "field_display_name":"Manufacturing (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"retail",
+            "field_display_name":"Retail (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"internet",
+            "field_display_name":"Consumer Internet (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"defense",
+            "field_display_name":"Defense (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"government",
+            "field_display_name":"Government (Coming Soon)",
+            "is_available":false
+        },
+        {
+            "field_name":"ecommerce",
+            "field_display_name":"Ecommerce (Coming Soon)",
+            "is_available":false
+        }
+    ],
+    "company_size":[
+        {
+            "field_name":"1-10",
+            "field_display_name":"1-10",
+            "is_available":false
+        },
+        {
+            "field_name":"11-50",
+            "field_display_name":"11-50",
+            "is_available":true
+        },
+        {
+            "field_name":"51-100",
+            "field_display_name":"51-100",
+            "is_available":true
+        },
+        {
+            "field_name":"101-500",
+            "field_display_name":"101-500",
+            "is_available":true
+        },
+        {
+            "field_name":"501-1000",
+            "field_display_name":"501-1000",
+            "is_available":true
+        },
+        {
+            "field_name":"1001-5000",
+            "field_display_name":"1001-5000",
+            "is_available":true
+        },
+        {
+            "field_name":"5000+",
+            "field_display_name":"5000+",
+            "is_available":true
+        }
+    ],
+    "departments":[
+        {
+            "field_name":"sales_and_business",
+            "field_display_name":"Sales and Business departments",
+            "is_available":true
+        },
+        {
+            "field_name":"engineering",
+            "field_display_name":"Engineering",
+            "is_available":true
+        },
+        {
+            "field_name":"marketing",
+            "field_display_name":"Marketing",
+            "is_available":true
+        },
+        {
+            "field_name":"operations",
+            "field_display_name":"Operations",
+            "is_available":true
+        },
+        {
+            "field_name":"product_management",
+            "field_display_name":"Product Management",
+            "is_available":true
+        },
+        {
+            "field_name":"customer_support_and_success",
+            "field_display_name":"Customer Support and Success",
+            "is_available":true
+        },
+        {
+            "field_name":"human_resources",
+            "field_display_name":"Human Resources",
+            "is_available":true
+        },
+        {
+            "field_name":"design",
+            "field_display_name":"Design",
+            "is_available":true
+        },
+        {
+            "field_name":"research",
+            "field_display_name":"Research",
+            "is_available":true
+        },
+        {
+            "field_name":"community",
+            "field_display_name":"Community",
+            "is_available":true
+        },
+        {
+            "field_name":"project_management",
+            "field_display_name":"Project Management",
+            "is_available":true
+        },
+        {
+            "field_name":"purchasing",
+            "field_display_name":"Purchasing",
+            "is_available":true
+        },
+        {
+            "field_name":"finance",
+            "field_display_name":"Finance",
+            "is_available":true
+        },
+        {
+            "field_name":"administrative",
+            "field_display_name":"Administrative",
+            "is_available":true
+        },
+        {
+            "field_name":"accounting",
+            "field_display_name":"Accounting",
+            "is_available":true
+        }
+    ],
+    "department_size":[
+        {
+            "field_name":"any",
+            "field_display_name":"Any",
+            "is_available":true
+        },
+        {
+            "field_name":"1-10",
+            "field_display_name":"1-10",
+            "is_available":true
+        },
+        {
+            "field_name":"11-50",
+            "field_display_name":"11-50",
+            "is_available":true
+        },
+        {
+            "field_name":"51+",
+            "field_display_name":"51+",
+            "is_available":true
+        }
+    ],
+    "signals":[
+        {
+            "field_name":"funding_insights",
+            "field_display_name":"Funding Insights",
+            "is_available":true
+        },
+        {
+            "field_name":"company_growth",
+            "field_display_name":"Company Growth",
+            "is_available":true
+        },
+        {
+            "field_name":"jobs_hiring_velocity",
+            "field_display_name":"Jobs & Hiring Velocity",
+            "is_available":true
+        },
+        {
+            "field_name":"web_traffic",
+            "field_display_name":"Web Traffic Analytics",
+            "is_available":true
+        },
+        {
+            "field_name":"seo_ppc_insights",
+            "field_display_name":"SEO & PPC Insights",
+            "is_available":true
+        },
+        {
+            "field_name":"advertising_insights",
+            "field_display_name":"Advertising Insights",
+            "is_available":true
+        },
+        {
+            "field_name":"social_media_analytics",
+            "field_display_name":"Social Media Analytics",
+            "is_available":true
+        },
+        {
+            "field_name":"product_reviews_sentiment",
+            "field_display_name":"Product Reviews & Sentiment",
+            "is_available":true
+        },
+        {
+            "field_name":"news_articles_pr",
+            "field_display_name":"News Articles & PR",
+            "is_available":true
+        },
+        {
+            "field_name":"technographic_insights",
+            "field_display_name":"Technographic Insights",
+            "is_available":true
+        },
+        {
+            "field_name":"market_sentiment",
+            "field_display_name":"Market Sentiment",
+            "is_available":true
+        },
+        {
+            "field_name":"linkedin_headcount_analytics",
+            "field_display_name":"Linkedin Headcount Analytics",
+            "is_available":true
+        }
+    ]
+}

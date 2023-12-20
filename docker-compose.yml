@@ -1,0 +1,49 @@
+services:
+  data_hub:
+    image: 538780007699.dkr.ecr.us-west-2.amazonaws.com/data_hub:eb36876b
+    ports:
+      - "8000:8000"
+    environment:
+      - PREF_DB_URI=mongodb://mongodb:27017/userPreferences
+      - PREF_DB_NAME=userPreferences
+      - PREF_DB_USER=backendNamora
+      - PREF_DB_PASSWORD=adminNamora
+      - MASTER_DB_HOST=masterdb-1.c3rrmcm1vc6s.us-west-2.rds.amazonaws.com
+      - MASTER_DB_PORT=5432
+      - MASTER_DB_NAME=postgres
+      - MASTER_DB_USER=namora
+      - MASTER_DB_PASSWORD=adminnamora
+      - MASTER_DB_TABLE_NAME=companies
+      - METADATA_TABLE_NAME=companies_metadata
+      - SAVED_COMPANY_DB=mongodb://mongodb:27017/savedAccounts
+      - SAVED_COMPANY_DB_NAME=savedAccounts
+      - OPENAI_API_KEY=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
+    networks:
+      - datahub
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: us-west-2
+        awslogs-group: namora-backend
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports: 
+      - "27017:27017"
+    restart: on-failure
+    networks:
+      - datahub
+    volumes_from:
+      - mongodb_data
+
+  mongodb_data:
+    image: busybox
+    volumes:
+      - /data/db
+    networks:
+      - datahub
+
+networks:
+  datahub:
+    

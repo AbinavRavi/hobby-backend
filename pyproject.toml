@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "data-hub"
+version = "0.1.0"
+description = ""
+authors = ["AbinavRavi <abinav@namora.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.5"
+fastapi = {extras = ["all"], version = "^0.101.1"}
+python-dotenv = "^1.0.0"
+psycopg2-binary = "^2.9.7"
+pymongo = "^4.5.0"
+redis = "^5.0.0"
+pandas = "^2.1.0"
+uvicorn = "^0.23.2"
+openai = "^0.28.0"
+sqlalchemy = "^2.0.21"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+black = "^23.7.0"
+radon = "^6.0.1"
+flake8 = "^6.1.0"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+bandit = "^1.7.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

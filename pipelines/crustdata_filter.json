@@ -1,0 +1,60 @@
+{
+  "metrics": [
+    {
+      "metric_name": "linkedin_headcount_and_glassdoor_ceo_approval_and_g2"
+    }
+  ],
+  "filters": {
+    "op": "and",
+    "conditions": [
+      {
+        "op": "and",
+        "conditions": [
+          {
+            "column": "crunchbase_total_investment_usd",
+            "type": "=>",
+            "value": "500000",
+            "allow_null": false
+          }
+        ]
+      },
+      {
+        "op": "and",
+        "conditions": [
+          {
+            "column": "linkedin_headcount",
+            "type": "=>",
+            "value": "10",
+            "allow_null": false
+          }
+        ]
+      },
+      {
+        "op": "and",
+        "conditions": [
+          {
+            "column": "hq_country",
+            "type": "(.)",
+            "value": "USA",
+            "allow_null": false
+          }
+        ]
+      },
+      {
+        "op":"and",
+        "conditions":[
+            {
+                "column": "linkedin_industries",
+                "type":"(.)",
+                "value":"Computer Software",
+                "allow_null":false
+            }
+        ]
+      }
+    ]
+  },
+  "hidden_columns": ["total_rows"],
+  "offset": 0,
+  "count": 1000,
+  "sorts": []
+}
